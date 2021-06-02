@@ -93,6 +93,8 @@ class LinkedList {
 	deleteHead() {
 		if (!this.head) return null;
 
+		const deletedHead = this.head;
+
 		if (this.head.next) {
 			this.head = this.head.next;
 		} else {
@@ -100,7 +102,7 @@ class LinkedList {
 			this.tail = null;
 		}
 
-		return this.head;
+		return deletedHead;
 	}
 
 	deleteTail() {
