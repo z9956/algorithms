@@ -19,7 +19,7 @@ class HashTable {
 
 	set(key, value) {
 		let address = this.hashKey(key);
-		if (this.memory[address]) this.memory[address] = value;
+		this.memory[address] = value;
 	}
 
 	remove(key, value) {
