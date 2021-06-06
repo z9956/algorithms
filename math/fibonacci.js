@@ -5,9 +5,9 @@
 * */
 
 /**
-* @param {number} number
-* @return {number[]}
-* */
+ * @param {number} number
+ * @return {number[]}
+ * */
 const fibonacci = (number) => {
 	const fibSequence = [1];
 
@@ -28,5 +28,3 @@ const fibonacci = (number) => {
 
 	return fibSequence;
 };
-
-console.log(fibonacci(10));
