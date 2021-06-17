@@ -29,4 +29,4 @@ const mergeSort = (list) => {
 	return merge(mergeSort(leftList), mergeSort(rightList));
 };
 
-console.log(mergeSort([1, 0, 4, 1, 2, 3, 65, 7, 85, 3]));
+console.log(mergeSort([1, 3, 2, 4, 7, 8]));
