@@ -11,7 +11,7 @@ const selectionSort = (originalList) => {
 		for (let j = i + 1; j < list.length; j++) {
 			if (list[j] < list[min]) min = j;
 		}
-		if (min !== 1) [list[i], list[min]] = [list[min], list[i]];
+		if (min !== i) [list[i], list[min]] = [list[min], list[i]];
 	}
 	return list;
 };
